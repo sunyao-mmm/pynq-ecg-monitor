@@ -1,0 +1,59 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 22:48:15 on Oct 26,2026
+vlog C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\ads1292_spi.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\sim\testbench\tb_ads1292_spi.v 
+-- Compiling module ads1292_spi
+-- Compiling module tb_ads1292_spi
+-- Compiling module ads1292_model
+
+Top level modules:
+	tb_ads1292_spi
+End time: 22:48:15 on Oct 26,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading D:/modeltech64_10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c tb_ads1292_spi -do "run -all; quit -f" 
+# Start time: 22:48:16 on Oct 26,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.tb_ads1292_spi(fast)
+# run -all
+# =========== ads1292_spi : SPI master bring-up ===========
+# *** TB BUILD ADS1292-2 ***
+#   ok   init_done raised
+#   ok   batch1: chip ID read back = 0x73 (ADS1292R), frames so far = 0
+#   ok   frame[0] = 1  (channel-1 frame #0)
+#   ok   frame[1] = 32767  (channel-1 frame #1)
+#   ok   frame[2] = -32768  (channel-1 frame #2)
+#   ok   frame[3] = -256  (channel-1 frame #3)
+#   ok   batch2: chip ID 0x73, frames so far = 4, status = 0xc0
+#   ok   frame[4] = 4660  (channel-1 frame #4)
+#   ok   frame[5] = -21555  (channel-1 frame #5)
+#   ok   WREG: 11 bytes, CONFIG1=0x01 (250 SPS), CONFIG2=0xE1
+#   ok   non-R config: CH1SET=0x20 (gain 2), RESP1=0x02, RESP2=0x07
+#   ok   six samples read
+#   ok   2 diagnostic batches emitted
+#   ok   command order: ... WREG, RREG|ID(0x20 00 5A), RDATAC(0x10), START(0x08)
+# -------------------------------------------------------
+# checks = 14   errors = 0
+#   RESULT: PASS
+# =======================================================
+# ** Note: $finish    : C:/Users/sunxiaoyao/Desktop/ecg-pynq-submission/sim/testbench/tb_ads1292_spi.v(220)
+#    Time: 20179535 ns  Iteration: 1  Instance: /tb_ads1292_spi
+# End time: 22:48:17 on Oct 26,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

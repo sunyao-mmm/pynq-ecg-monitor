@@ -1,0 +1,68 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 22:48:01 on Oct 26,2026
+vlog C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\notch_50hz.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\fir_bandpass.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\clt_qrs.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\heart_rate.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\ecg_detect_top.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\sim\testbench\tb_ecg_detect.v 
+-- Compiling module notch_50hz
+-- Compiling module fir_bandpass
+-- Compiling module clt_qrs
+-- Compiling module heart_rate
+-- Compiling module ecg_detect_top
+-- Compiling module tb_ecg_detect
+
+Top level modules:
+	heart_rate
+	tb_ecg_detect
+End time: 22:48:01 on Oct 26,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading D:/modeltech64_10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c tb_ecg_detect -do "run -all; quit -f" 
+# Start time: 22:48:02 on Oct 26,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.tb_ecg_detect(fast)
+# run -all
+# =========== ecg_detect_top : FIR 5-40 Hz + CLT ===========
+# *** TB BUILD ECG-1-3 ***  (1024 samples inlined, no .hex file needed)
+# stimulus min/max = -645 / 960   (expect -645 / 960)
+# FIR group delay  = 32 input samples (88.9 ms), already added back into r_index
+#     truth[0] = 53
+#     truth[1] = 257
+#     truth[2] = 460
+#     truth[3] = 658
+#   [69645000] R peak: input index=54  amp=1105  clt=7114
+#   [200205000] R peak: input index=258  amp=1268  clt=7462
+#   [330125000] R peak: input index=461  amp=1246  clt=7730
+#   [456845000] R peak: input index=659  amp=1038  clt=6086
+#   TP: detected 54  matched annotation 53  (delta 1)
+#   TP: detected 258  matched annotation 257  (delta 1)
+#   TP: detected 461  matched annotation 460  (delta 1)
+#   TP: detected 659  matched annotation 658  (delta 1)
+# -------------------------------------------------
+# detected = 4   annotations = 4
+# TP = 4   FP = 0   FN = 0
+# Se  (sensitivity) = 100.0 %
+# PPV (precision)   = 100.0 %
+# -------------------------------------------------
+#   y_valid pulses (FIR outputs) = 711   [expect 711]
+#   max CLT value                = 16522
+# =================================================
+# ** Note: $finish    : C:/Users/sunxiaoyao/Desktop/ecg-pynq-submission/sim/testbench/tb_ecg_detect.v(931)
+#    Time: 498145 ns  Iteration: 1  Instance: /tb_ecg_detect
+# End time: 22:48:03 on Oct 26,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
