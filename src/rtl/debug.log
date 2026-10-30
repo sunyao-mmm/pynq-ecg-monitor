@@ -1,0 +1,3 @@
+[1030/121627:ERROR:cookie_monster.cc(1527)] Found 3 duplicate cookies for host='altium.com', with {name='OptanonConsent', domain='.altium.com', path='/'}
+[1030/121627:ERROR:cookie_monster.cc(1527)] Found 3 duplicate cookies for host='altium.com', with {name='__cf_bm', domain='.go.altium.com', path='/'}
+[1030/121627:ERROR:cookie_monster.cc(1527)] Found 3 duplicate cookies for host='altium.com', with {name='abjs_t_6', domain='www.altium.com', path='/'}
