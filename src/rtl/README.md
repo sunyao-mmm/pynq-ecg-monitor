@@ -4,7 +4,7 @@
 |---|---|
 | `notch_50hz.v` | 50 Hz 二阶 IIR 陷波，按实测 243.65 Hz 进样率设计 |
 | `fir_bandpass.v` | 65 抽头 5-40 Hz 带通 FIR，串行 MAC |
-| `clt_qrs.v` | 由于未获得许可证，仅在比赛压缩包中提供|
+| `clt_qrs.v` | 正在联系原作者，由于暂未获得许可证，仅在比赛压缩包中提供|
 | `ecg_detect_top.v` | 串联陷波、FIR 和 CLT 检测链 |
 | `heart_rate.v` | RR 间期、bpm、RR 中位数和异常 RR 状态 |
 | `ads1292_spi.v` | ADS1292 SPI 配置、命令序列和 9 字节数据帧读取 |
