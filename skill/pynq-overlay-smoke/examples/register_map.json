@@ -1,0 +1,25 @@
+{
+  "ip_name": "ecg_axil_0",
+  "id": {
+    "offset": "0x2C",
+    "expected": "0x0EC60001"
+  },
+  "roundtrip": [
+    {
+      "name": "SCRATCH",
+      "offset": "0x28",
+      "value": "0x12345678"
+    },
+    {
+      "name": "CAP_LEN",
+      "offset": "0x24",
+      "value": 711
+    }
+  ],
+  "run_check": {
+    "ctrl_offset": "0x00",
+    "status_offset": "0x04",
+    "run_bit": 0,
+    "settle_s": 0.05
+  }
+}

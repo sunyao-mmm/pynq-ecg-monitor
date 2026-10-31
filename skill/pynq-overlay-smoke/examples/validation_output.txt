@@ -1,0 +1,6 @@
+Command:
+python scripts/test_overlay_smoke.py
+
+Output:
+checks = 3   failures = 0
+RESULT: PASS
