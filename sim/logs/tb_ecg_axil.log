@@ -1,0 +1,71 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 22:48:18 on Oct 26,2026
+vlog C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\ecg_axil.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\sim\testbench\tb_ecg_axil.v 
+-- Compiling module ecg_axil
+-- Compiling module tb_ecg_axil
+
+Top level modules:
+	tb_ecg_axil
+End time: 22:48:18 on Oct 26,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading D:/modeltech64_10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c tb_ecg_axil -do "run -all; quit -f" 
+# Start time: 22:48:19 on Oct 26,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.tb_ecg_axil(fast)
+# run -all
+# ====== ecg_axil : AXI4-Lite register test (the ARM would do this) ======
+# *** TB BUILD AXIL-1 ***
+#   ok   ID (read only) = 0x0ec60001
+#   ok   SCRATCH  A5A55A5A = 0xa5a55a5a
+#   ok   SCRATCH  12345678 = 0x12345678
+#   ok   STATUS before run = 0x00000000
+#   ok   STATUS run bit = 0x00000001
+#   ok   ctrl_run output = 0x00000001
+#   ok   ctrl_src initial = 0x00000000
+#   ok   ctrl_src set = 0x00000001
+#   ok   ctrl_src clear = 0x00000000
+#   ok   CLT_NOW = 0x00003d2c
+#   ok   R_INDEX = 0x000003b3
+#   ok   R_AMP = 0x00000438
+#   ok   BPM = 0x0000004a
+#   ok   RR_SAMPLES = 0x0000011c
+#   ok   BEAT_COUNT = 0x00000004
+#   ok   RR_BAD_CNT = 0x00000001
+#   ok   STATUS cap_done bit = 0x00000001
+#   ok   STATUS beat hi word = 0x00000004
+#   ok   CAP_LEN default = 0x00000400
+#   ok   CAP_LEN  after wr = 0x00000200
+#   ok   cap_len output = 0x00000200
+#   ok   unused register = 0x00000000
+#   ok   STATUS run cleared = 0x00000000
+#   ok   CAP_DATA @5 (flag+clt) = 0x80003d2c
+#   ok   CAP_DATA @1 = 0x00000048
+#   ok   CAP_DATA @1023 = 0x000004d2
+#   ok   CAP_ADDR read back = 0x000003ff
+# ------------------------------------------------------------------------
+# checks = 27   errors = 0
+#   RESULT: PASS
+# ========================================================================
+# ** Note: $finish    : C:/Users/sunxiaoyao/Desktop/ecg-pynq-submission/sim/testbench/tb_ecg_axil.v(187)
+#    Time: 1310 ns  Iteration: 1  Instance: /tb_ecg_axil
+# End time: 22:48:20 on Oct 26,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

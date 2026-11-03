@@ -1,0 +1,45 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 22:47:56 on Oct 26,2026
+vlog C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\notch_50hz.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\sim\testbench\tb_notch_50hz.v 
+-- Compiling module notch_50hz
+-- Compiling module tb_notch_50hz
+
+Top level modules:
+	tb_notch_50hz
+End time: 22:47:56 on Oct 26,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading D:/modeltech64_10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c tb_notch_50hz -do "run -all; quit -f" 
+# Start time: 22:47:57 on Oct 26,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.tb_notch_50hz(fast)
+# run -all
+# ========= notch_50hz : fs=243.65 Hz, f0=50 Hz, Q=8 =========
+#   ok   50 Hz in 2000 -> out peak 3  (< 100)
+#   ok   10 Hz in 2000 -> out peak 2000  (> 1800)
+#   ok   step settles to DC (out peak 2003, expect ~2000)
+# -------------------------------------------------------------
+# checks = 3   errors = 0
+#   RESULT: PASS
+# ** Note: $finish    : C:/Users/sunxiaoyao/Desktop/ecg-pynq-submission/sim/testbench/tb_notch_50hz.v(104)
+#    Time: 1344080 ns  Iteration: 1  Instance: /tb_notch_50hz
+# End time: 22:47:58 on Oct 26,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

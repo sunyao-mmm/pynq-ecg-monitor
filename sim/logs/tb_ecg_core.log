@@ -1,0 +1,91 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 22:48:03 on Oct 26,2026
+vlog C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\notch_50hz.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\fir_bandpass.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\clt_qrs.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\heart_rate.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\ecg_detect_top.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\ecg_core.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\sim\testbench\tb_ecg_core.v 
+-- Compiling module notch_50hz
+-- Compiling module fir_bandpass
+-- Compiling module clt_qrs
+-- Compiling module heart_rate
+-- Compiling module ecg_detect_top
+-- Compiling module ecg_core
+-- Compiling module tb_ecg_core
+
+Top level modules:
+	tb_ecg_core
+End time: 22:48:03 on Oct 26,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading D:/modeltech64_10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c tb_ecg_core -do "run -all; quit -f" 
+# Start time: 22:48:04 on Oct 26,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.tb_ecg_core(fast)
+# run -all
+# ========== ecg_core : dual data source (ROM / ADS1292) ==========
+# *** TB BUILD CORE-2 ***  (711 samples inlined, no .hex file needed)
+#   [70255000] R peak: index=54  amp=1105
+#   [200815000] R peak: index=258  amp=1268
+#   [201005000] bpm = 74   (rr = 204 samples)
+#   [330735000] R peak: index=461  amp=1246
+#   [330925000] bpm = 74   (rr = 203 samples)
+#   [457455000] R peak: index=659  amp=1038
+#   [457645000] bpm = 74   (rr = 198 samples)
+# --- source 0 : ROM player ---
+# detected 4 R peaks (expect 4)
+#   ok   R peak[0] = 54
+#   ok   R peak[1] = 258
+#   ok   R peak[2] = 461
+#   ok   R peak[3] = 659
+# bpm updates: 3 (expect 3)
+#   ok   bpm[0] = 74
+#   ok   bpm[1] = 74
+#   ok   bpm[2] = 74
+#   ok   st_beat_count = 4
+#   ok   st_rr_samples = 198 (last RR)
+#   ok   st_cap_done = 0 (capture still running, buffer 4096 > 711)
+#   ok   capture = 708 wave + 708 CLT words for 708 samples
+#   [564765000] R peak: index=54  amp=1105
+#   [695325000] R peak: index=258  amp=1268
+#   [695515000] bpm = 74   (rr = 204 samples)
+#   [825245000] R peak: index=461  amp=1246
+#   [825435000] bpm = 74   (rr = 203 samples)
+#   [951965000] R peak: index=659  amp=1038
+#   [952155000] bpm = 74   (rr = 198 samples)
+# --- source 1 : ADS1292 port ---
+# detected 4 R peaks (expect 4)
+#   ok   R peak[0] = 54
+#   ok   R peak[1] = 258
+#   ok   R peak[2] = 461
+#   ok   R peak[3] = 659
+# bpm updates: 3 (expect 3)
+#   ok   bpm[0] = 74
+#   ok   bpm[1] = 74
+#   ok   bpm[2] = 74
+#   ok   st_beat_count = 4
+#   ok   st_rr_samples = 198 (last RR)
+#   ok   st_cap_done = 0 (capture still running, buffer 4096 > 711)
+#   ok   capture = 711 wave + 711 CLT words for 711 samples
+# ---------------------------------------------------------------------------
+# checks = 22   errors = 0
+#   RESULT: PASS
+# ===========================================================================
+# ** Note: $finish    : C:/Users/sunxiaoyao/Desktop/ecg-pynq-submission/sim/testbench/tb_ecg_core.v(946)
+#    Time: 1031345 ns  Iteration: 1  Instance: /tb_ecg_core
+# End time: 22:48:06 on Oct 26,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

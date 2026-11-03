@@ -1,0 +1,44 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 22:48:08 on Oct 26,2026
+vlog C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\notch_50hz.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\fir_bandpass.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\clt_qrs.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\heart_rate.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\ecg_detect_top.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\src\rtl\ecg_core.v C:\Users\sunxiaoyao\Desktop\ecg-pynq-submission\sim\testbench\tb_ring_memory.v 
+-- Compiling module notch_50hz
+-- Compiling module fir_bandpass
+-- Compiling module clt_qrs
+-- Compiling module heart_rate
+-- Compiling module ecg_detect_top
+-- Compiling module ecg_core
+-- Compiling module tb_ring_memory
+
+Top level modules:
+	tb_ring_memory
+End time: 22:48:08 on Oct 26,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading D:/modeltech64_10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c tb_ring_memory -do "run -all; quit -f" 
+# Start time: 22:48:09 on Oct 26,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.tb_ring_memory(fast)
+# run -all
+# PASS continuous RAM mapping remained aligned through 4 wraps
+# ** Note: $finish    : C:/Users/sunxiaoyao/Desktop/ecg-pynq-submission/sim/testbench/tb_ring_memory.v(112)
+#    Time: 1030 ns  Iteration: 1  Instance: /tb_ring_memory
+# End time: 22:48:10 on Oct 26,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
